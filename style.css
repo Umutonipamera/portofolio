@@ -1,4 +1,3 @@
-
 :root{
   --pink:#ff4081;
 }
@@ -11,6 +10,7 @@ body{
   width:100vw;
   background-color: #192024;
   font-weight: bold;
+  position:fixed;
 }
 ul{
   list-style: none;
@@ -28,6 +28,10 @@ li a{
   padding: right 5em; 
   position:relative; 
   transition:all ease-in-out 250ms; 
+  font-size: 30px;
+}
+li{
+  color:white;
   font-size: 30px;
 }
 li a::after{
@@ -50,7 +54,6 @@ background-color:var(--pink);
  ul :first-child{ 
  margin-right:auto ;
  margin-left :50px; 
-
 } 
 
 body {
@@ -88,6 +91,8 @@ body {
   text-align: center;
   color:#ff4081;
   padding-right:15% ;
+  font-size:40px ;
+  margin-left:20% ;
 }
 #about{
   background-color:black ;
@@ -99,21 +104,107 @@ body {
 }
 #image{
   margin-top:0 ;
+  padding-left: 30px;
+  border-radius:5px ;
 }
 #pam {
   padding-left:10%;
   color:white;
-  font: size 40px; 
+  font: size 60px; 
+  margin-top: 8%;
   
 }
-p{
+#p1{
   text-align: center;
   padding-right: 10px;
   opacity:1;
+  font-size:22px ; 
+  margin-left:5px;
  
-  
 }
 #me{
   opacity:0.5;
   text-align: center;
+  font-size:30px ;
+  
 }
+
+span{
+  color: #ff4081;
+}
+.resu{
+  margin-top:10% ;
+}
+
+#resume{
+  border:solid#ff4081;
+  background-color: #ff4081;
+  color:white;
+  text-align: center;
+  width:50%;
+  height:100% ;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right:5%;
+  padding-left:5% ;
+  font: size 25px; 
+  border-radius: 30px;
+  text-decoration: none;
+  margin-left: 40%;
+  margin-bottom:10% ;
+  /* margin-top: 20%; */
+}
+.projectsPage{
+  display:flex;
+}
+#projects{
+  background-color: black;
+ opacity:1 ;
+ padding-bottom:20%;
+}
+#myprojects{
+  text-align:center ;
+  color:#ff4081;
+  font-size:40px ;
+  padding-right:20%;
+  margin-top:22px;
+  margin-left:20% ;
+
+}
+.card{
+
+  box-shadow: 0 4px 5px;
+  transition: 0.3s;
+  width: 20%;
+  padding-left: 30px;
+  margin-top:3%; 
+  margin-right:5% ;
+  margin-left:5% ;
+  padding: 30px;
+  background-color:rgb(66, 51, 51); 
+  
+}
+#card1{
+  border:solid var(--pink);
+  background-color: var(--pink);
+  color:white;
+  text-align: center;
+  margin-top:30% ;
+  margin-left:43% ;
+  font-size: 30px;
+  
+}
+.container{
+  color:white;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 #ff4081;
+}
+#site{
+  text-align:center;
+}
+
+ #app{
+   text-align:center ;
+ }
+
