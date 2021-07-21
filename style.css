@@ -1,17 +1,25 @@
+@media(min-width:500px){
+
 :root{
   --pink:#ff4081;
 }
+}
+@media (min-width:500px){
 body{
     margin: 0;
     padding:0;
     font-family:lato sans-serif;
 }
+}
+@media(min-width:500px){
 #navbar{
   width:100vw;
   background-color: #192024;
   font-weight: bold;
   position:fixed;
 }
+}
+@media(min-width:500px){
 ul{
   list-style: none;
   margin: 0;
@@ -22,6 +30,8 @@ ul{
   margin-right: 30px;
   padding:25px;
 }
+}
+@media(min-width:500px){
 li a{
   text-decoration:none ;
   color:white;
@@ -30,10 +40,14 @@ li a{
   transition:all ease-in-out 250ms; 
   font-size: 30px;
 }
+}
+@media(min-width:500px){
 li{
   color:white;
   font-size: 30px;
 }
+}
+@media(min-width:500px){
 li a::after{
   content: "";
   position: absolute;
@@ -44,18 +58,25 @@ li a::after{
   bottom:-1em;
   transition:all ease-in-out 250ms; 
 }
+}
+@media(min-width:500px){
 li a:hover::after{
   width:60%;
 }
+}
+@media(min-width:500px){
 li a:hover{
 background-color:var(--pink); 
 
 }
+}
+@media(min-width:500px){
  ul :first-child{ 
  margin-right:auto ;
  margin-left :50px; 
 } 
-
+}
+@media(min-width:500px){
 body {
   background-image: url("images/lap.jpeg");
   height:100vh;
@@ -64,21 +85,29 @@ body {
   background-size: cover;
   background-color: black;
 }
+}
+@media(min-width:500px){
 .title{
   text-align: center;
   margin: top 40px; 
   padding-top:16% ;
   color:#ff4081;
 }
+}
+@media(min-width:500px){
 .title h2{
  color:white; 
 }
+}
+@media(min-width:500px){
 .name{
   position:absolute;
   top:30%;
   left:5%;
   transform:translate(-50,-50)
 }
+}
+@media(min-width:500px){
 #container{
   min-height: 100hv;
   width:100%;
@@ -86,6 +115,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+}
+@media(min-width:500px){
 #myabout{
   margin-top: 22%;
   text-align: center;
@@ -94,47 +125,60 @@ body {
   font-size:40px ;
   margin-left:20% ;
 }
+}
+@media(min-width:500px){
 #about{
   background-color:black ;
   opacity:1;
 }
-.image{
-  display:flex;
-  
 }
+@media(min-width:500px){
+.image{
+  display:flex; 
+}
+}
+@media(min-width:500px){
 #image{
   margin-top:0 ;
   padding-left: 30px;
   border-radius:5px ;
 }
+}
+@media(min-width:500px){
 #pam {
   padding-left:10%;
   color:white;
   font: size 60px; 
   margin-top: 8%;
-  
 }
+}
+@media(min-width:500px){
 #p1{
   text-align: center;
   padding-right: 10px;
   opacity:1;
   font-size:22px ; 
-  margin-left:5px;
- 
+  margin-left:5px; 
 }
+}
+@media(min-width:500px){
 #me{
   opacity:0.5;
   text-align: center;
   font-size:30px ;
-  
 }
-
+}
+@media(min-width:500px){
 span{
   color: #ff4081;
 }
+}
+@media(min-width:500){
 .resu{
   margin-top:10% ;
 }
+}
+@media(min-width:500px){
 
 #resume{
   border:solid#ff4081;
@@ -153,14 +197,20 @@ span{
   margin-left: 40%;
   margin-bottom:10% ; 
 }
+}
+@media(min-width:500px){
 .projectsPage{
   display:flex;
 }
+}
+@media(min-width:500px){
 #projects{
   background-color: black;
  opacity:1 ;
  padding-bottom:20%;
 }
+}
+@media(min-width:500px){
 #myprojects{
   text-align:center ;
   color:#ff4081;
@@ -168,8 +218,9 @@ span{
   padding-right:20%;
   margin-top:22px;
   margin-left:20% ;
-
 }
+}
+@media(min-width:500px){
 .card{
 
   box-shadow: 0 4px 5px;
@@ -180,9 +231,10 @@ span{
   margin-right:5% ;
   margin-left:5% ;
   padding: 30px;
-  background-color:rgb(66, 51, 51); 
-  
+  background-color:rgb(66, 51, 51);  
 }
+}
+@media(min-width:500px){
 #card1{
   border:solid var(--pink);
   background-color: var(--pink);
@@ -192,25 +244,36 @@ span{
   margin-left:33% ;
   font-size: 30px; 
 }
+}
+@media(min-width:500px){
 .container{
   color:white;
 }
+}
+@media(min-width:500px){
 .card:hover{
   box-shadow: 0 8px 16px 0 #ff4081;
 }
+}
+@media(min-width:500px){
 #site{
   text-align:center;
 }
+}
+@media(min-width:500px){
 
  #app{
    text-align:center ;
  }
-
+}
+@media(min-width:500px){
  #contact{
    background-color: black;
    margin-top: 15px;
    padding-top: 40px;
  }
+}
+@media(min-width:500px){
  #myContact{
   text-align:center ;
   color:#ff4081;
@@ -219,25 +282,34 @@ span{
   margin-top:5px;
   margin-left:20% ;
  }
+}
+@media(min-width:500px){
  #main{
    color:white;
    text-align:center;
    padding-top:28px ;
  }
+}
+@media(min-width:500px){
  .contact{
    display:flex;
    color:white;
    justify-content: center;
   }
- 
+}
+ @media(min-width:500px){
  .contact a{
    color:white;
  }
+}
+@media(min-width:500px){
  i{
    font-size: 30px;
    margin-left:80px ;
    margin-top: 10%;
  }
+}
+@media(min-width:500px){
 
  #p2{
    color:white;
@@ -246,3 +318,4 @@ span{
    text-align: center;
    font-size: 22px;
  }
+}
