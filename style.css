@@ -320,7 +320,7 @@ span{
   color:#ff4081;
   font-size:40px ;
   padding-right:20%;
-  margin-top:22px;
+  margin-top:10%;
   margin-left:20% ;
 }
 .skillsPage{
@@ -328,4 +328,32 @@ span{
 }
 #skill{
   color:white;
+}
+.row2{
+  display: flex;
+}
+.s1{
+  width: 20%;
+  padding-left: 30px;
+  margin-top:1%; 
+  margin-right:5% ;
+  margin-left:5% ;
+  padding: 50px;
+
+}
+#h1{
+  color:white;
+  margin-left:31px ;
+}
+#h2{
+  color:white;
+  margin-left:35% ;
+}
+#h3{
+  color:white;
+  margin-left: 32%;
+}
+#h4{
+  color:white;
+  margin-left:30% ;
 }
