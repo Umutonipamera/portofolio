@@ -36,13 +36,13 @@ li a{
   padding: right 5em; 
   position:relative; 
   transition:all ease-in-out 250ms; 
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
 li{
   color:white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -79,7 +79,7 @@ background-color:var(--pink);
 
 
 body {
-  background-image: url("images/lap.jpeg");
+  background-image: url("images/image.jpeg");
   height:100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,15 +89,36 @@ body {
 
 
 .title{
-  text-align: center;
+  font-size: 30px;
   margin: top 40px; 
   padding-top:16% ;
   color:#ff4081;
+ 
+  
+}
+@keyframes text{
+  0%{
+    width: 0ch;
+  }
+ 100%{
+    width:29ch;
+  }
+}
+.title h1{
+  overflow: hidden;
+  /* animation-delay: 1s; */
+  animation:text 3s steps(40);
+  white-space: nowrap;
+  
 }
 
 
 .title h2{
  color:white; 
+ /* animation-delay :2s; */
+ animation:text 3s steps(40);
+ overflow: hidden;
+ white-space: nowrap;
 }
 
 
@@ -108,14 +129,14 @@ body {
   transform:translate(-50,-50)
 }
 
-
+/* 
 #container{
   min-height: 100hv;
   width:100%;
   display:flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 
 #myabout{
