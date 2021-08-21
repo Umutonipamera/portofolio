@@ -131,7 +131,7 @@ body {
   text-align: center;
   color:#ff4081;
   padding-right:15% ;
-  font-size:40px ;
+  font-size:30px ;
   margin-left:20% ;
 }
 
@@ -172,7 +172,7 @@ body {
 #me{
   opacity:0.5;
   text-align: center;
-  font-size:30px ;
+  font-size:25px;
 }
 
 
@@ -220,7 +220,7 @@ span{
 #myprojects{
   text-align:center ;
   color:#ff4081;
-  font-size:40px ;
+  font-size:30px ;
   padding-right:20%;
   margin-top:28px;
   margin-left:20% ;
@@ -255,23 +255,19 @@ span{
   color:white;
 }
 
-
 .card:hover{
   box-shadow: 0 8px 16px 0 #ff4081;
 }
-
 
 #site{
   text-align:center;
 }
 
-
-
  #app{
    text-align:center ;
  }
  
-
+/* 
 
  #contact{
    background-color: black;
@@ -307,37 +303,131 @@ span{
  i{
    font-size: 20px;
    opacity:1;
- }
+ } */
 
+
+/* 
+ #contact{
+  background-color: black;
+  margin-top: 30px;
+  
+  
+}
+
+#myContact{
+ text-align:center ;
+ color:#ff4081;
+ font-size:40px ;
+ padding-right:20%;
+ margin-top:10%;
+ margin-left:20% ;
+}
+
+#main{
+  color:white;
+  text-align:center;
+  padding-top:6% ;
+}
+
+
+.contact{
+  display:flex;
+  color:white;
+  margin-left:42% ;
+  margin-top: 8%;
+
+ }
+/* 
+i{
+  font-size: 20px;
+  opacity:1;
+} */
+/* #footer{
+  height: 400px;
+
+} */
+
+#footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer h2 {
+    color: var(--pink);
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+     margin-bottom: 10px;
+    text-align: center;
+} 
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+    /* text-align: center; */
+    margin-left: 43%;
+    margin-top: 3%;
+    font-size:20px ;  
+}
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    
+}
+#footer .social-item i {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+    color:white
+}
+
+#footer p {
+    color: white;
+    font-size: 1.3rem;
+}
+.left{
+  /* margin-left:40px; */
+  text-align: center;
+  /* margin-right:70%; */
+}
+#coo{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* End Footer */
+/* 
  #p2{
    color:white;
    opacity:0.3;
    margin-top: 10%;
    text-align: center;
-   font-size: 22px;
- }
-
+   font-size: 22px; */
+ 
+/* 
 #icon{
   padding-left: 1%;
   color:white;
   margin-left: 10px;
-   padding-right: 10px;
-}
+   padding-right: 10px; */
+
 #skills{
   text-align:center ;
   color:#ff4081;
-  font-size:40px ;
+  font-size:30px ;
   padding-right:20%;
   margin-top:10%;
   margin-left:20% ;
 }
 .skillsPage{
   display: flex;
- 
 
 }
-#skill{
-  color:white;
+.skill1{
+  background-color: rgb(46, 42, 42);
 }
 .row2{
   display: flex;
